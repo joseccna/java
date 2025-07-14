@@ -23,6 +23,7 @@ public class variavel {
         System.out.println(saudacao);
         System.out.println("Primeira letra do nome: " + primeiraLetra);
         System.out.println("Nome: " + nome);
+        
       
     }
     

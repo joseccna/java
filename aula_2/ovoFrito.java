@@ -3,6 +3,7 @@ package aula_2;
 public class ovoFrito {
     public static void main(String[] args) {
         // Declarando as variáveis de ingrediente e utensílio 
+        //Feito por José F. N. Carvalho
         String ingredienteOvo = "ovo";
         String ingredienteOleo = "óleo";
         String ingredienteSal = "sal"; 
@@ -20,6 +21,7 @@ public class ovoFrito {
         System.out.println("4. Coloque uma " + utensilioColher + " de " + ingredienteOleo + " na " + utencilioFrigideira);
 
         // Continuação dos passos
+        // Feito pela Renata
         System.out.println("5. Pegue o " + ingredienteOvo + " e segure-o com cuidado");
         System.out.println("6. Leve o " + ingredienteOvo + " para cima da " + utencilioFrigideira);
         System.out.println("7. Pegue a " + utensilioEspatula);

@@ -1,0 +1,48 @@
+Integrantes do grupo
+José Fernando N 
+Sergio Milametto
+Renata Rodrigues
+Ricardo Turra
+
+
+##Objetivo:
+- Fritar ovo (gema mole)
+
+##
+Algoritmo Ovo frito(gema mole) 
+
+1)Coletar o material
+-Ovo
+-Frigideira
+-Copo
+-Óleo
+-Sal
+-Pimenta do reino em pó
+-Espátula
+-Prato
+-Fogão
+-colher de sopa
+
+##Modo de preparo:
+Passo a passo
+Inicio
+
+1)Pegue a frigideira
+2)Coloque a frigideira no fogão na primeira boca disponível
+3)Acenda a boca na qual se encontra a frigideira
+4)Coloque uma colher de sopa de óleo na frigideira
+5)Pegue o ovo e segura o ovo
+6)Leve o ovo para cima da frigideira
+7)Pegue a espátula
+8)Use a espátula para quebra o ovo
+9)Batendo suavemente no ovo até quebra casca do ovo
+10)Despeje o ovo na frigideira e descarte a casca do ovo
+11)Coloque uma pitada de (0.5g) Sal sobre o ovo
+12)Coloque uma pitada de (0.5g) pimenta do reino em pó 
+13)Acompanhe por um minuto e meio o ovo fritando na frigideira
+14)Após um minuto e meio desligue a boca do fogão utilizado
+15)Retire o ovo da frigideira utilizando a espátula
+16)Coloque o ovo da espátula no prato
+
+Fim
+

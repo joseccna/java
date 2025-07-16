@@ -1,0 +1,14 @@
+configura o git no computador
+primeiro tem que configura o user global
+e o e-mail global.
+
+git config --global user.name "" 
+git config --global user.email "" 
+
+................................
+
+git init
+
+git commit -m ""
+
+git add .

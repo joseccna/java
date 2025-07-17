@@ -8,6 +8,7 @@ public class Inicio  {
         Gato g = new Gato();
         Cachorro c = new Cachorro();
         Papagaio p = new Papagaio();
+
         g.fazerSom();
         g.mover();
 

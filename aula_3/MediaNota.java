@@ -23,6 +23,8 @@ public class MediaNota {
         double media = (semestre1 + semestre2 + semestre3 + semestre4 + semestre5
          + semestre6 + semestre7 + semestre8 + semestre9 + semestre10) / 10;
 
+
+        System.out.println("\n");
         System.out.printf("Notas dos semestres: " + "\n" + "Primeiro - semestre: %.2f\n",  semestre1); 
         System.out.printf("Segundo  - semestre: %.2f\n",  semestre2); 
         System.out.printf("Terceiro - semestre: %.2f\n",  semestre3);

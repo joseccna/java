@@ -6,6 +6,8 @@ public class MediaNota {
         String curso = "Engenharia de Software";
 
 
+        
+        // Simulando notas dos semestres com números aleatórios entre 1 e 10 
 
         double semestre1 = (Math.random() * 10)+1; // Simulando notas aleatórias;
         double semestre2 = (Math.random() * 10)+1; // Simulando notas aleatórias;
@@ -19,12 +21,13 @@ public class MediaNota {
         double semestre10 = (Math.random() * 10)+1; // Simulando notas aleatórias;
 
 
-    
+        // Cálculo da média dos semestres
         double media = (semestre1 + semestre2 + semestre3 + semestre4 + semestre5
          + semestre6 + semestre7 + semestre8 + semestre9 + semestre10) / 10;
 
 
         System.out.println("\n");
+        // Formatação printf com duas casas decimais
         System.out.printf("Notas dos semestres: " + "\n" + "Primeiro - semestre: %.2f\n",  semestre1); 
         System.out.printf("Segundo  - semestre: %.2f\n",  semestre2); 
         System.out.printf("Terceiro - semestre: %.2f\n",  semestre3);
@@ -39,6 +42,8 @@ public class MediaNota {
         System.out.println("Curso: " + curso);
                
         System.out.printf("Média dos semestres: %.2f\n",  media);
+
+        // Verificando a situação do aluno com base na média
         if (media >= 6) {
             System.out.println("Situação: Aprovado");
         } else if (media >= 5 && media < 6) {

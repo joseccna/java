@@ -7,8 +7,9 @@ public class inicio {
         System.out.println(p.getNome()); // Maria
         System.out.println(p.getIdade()); // 30
 
-        p.setIdade(-5); // "Idade inválida!" – proteção via encapsulamento
+        p.setIdade(20); // "Idade inválida!" – proteção via encapsulamento
         p.setNome("João");
         System.out.println(p.getNome()); // João
+        System.out.println(p.getIdade()); // 20
     }
 }

@@ -6,9 +6,10 @@ public class veiculo {
     String modelo;
     int ano;
 
-    void ligar() {
-        System.out.println("O carro " + modelo + " da cor " + cor + " e do ano " + ano + " está ligado.");
+public void ligar() {
+        System.out.println("O veículo está ligado.");
     }
+
 }
 
 

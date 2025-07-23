@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URI;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -18,7 +19,8 @@ public class SelicAPI {
         try {
             String apiUrl = "https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados/ultimos/1?formato=json";
 
-            URL url = new URL(apiUrl);
+            URI uri = new URI(apiUrl);
+            URL url = uri.toURL();
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("GET");
 

@@ -2,7 +2,7 @@ package aula_8.agendaRenata;
 
 public class inicial {
     public static void main(String[] args) {
-        agenda p = new agenda("Renata", 38, "ID12345");
+        agenda p = new agenda("Elena", 64, "ID12345");
 
 
         System.out.println("Nome: " + p.getNome());
